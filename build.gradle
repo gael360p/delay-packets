@@ -18,7 +18,7 @@ repositories {
 
 dependencies {
     minecraft 'com.mojang:minecraft:1.21.4'
-    mappings 'net.fabricmc:yarn:1.21.4+build.7:v2' // Confirm latest build on Fabric Maven
+    mappings 'net.fabricmc:yarn:1.21.4+build.7:v2'  // Use latest stable yarn mappings for 1.21.4
     modImplementation 'net.fabricmc:fabric-loader:0.15.6' // Check latest loader version for 1.21.4
     modImplementation 'net.fabricmc.fabric-api:fabric-api:0.87.0+1.21.4' // Update to latest for 1.21.4
 }
